@@ -33,6 +33,41 @@ interface Project {
   images?: ProjectImage[]
 }
 
+// Images for Smart Blood Supply (blood logistics and ordering platform)
+const smartBloodSupplyImages: ProjectImage[] = [
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-25_15-27-46-D2pPSSZzIlGA79TGoCzVixOqKKsJ1T.jpg',
+    alt: 'Landing Page',
+    caption: 'Smart Blood Supply - Home page with login access',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-2kqGT7CroPFN7y2kwhr25IFoxVb0TR.png',
+    alt: 'Urgent Orders',
+    caption: 'Orders Dashboard - View and manage urgent blood product orders',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-NVYp1EkE8mnLWS8dEB8MOT40Riizgd.png',
+    alt: 'Waiting Orders',
+    caption: 'Waiting Orders - Track pending blood product requests by type',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-iby2lXZC62Kp3dgr2r429Lr84ulAlE.png',
+    alt: 'Accepted Orders',
+    caption: 'Accepted Orders - Monitor orders that have been approved',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-C8xYAoYqqBqTmhWkvVYLh8MSadeFI1.png',
+    alt: 'Order Overview with Map',
+    caption: 'Order Overview - Route optimization with patient details and delivery tracking',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-LoPSq5TOMZ4I3Nvv1FFkxnddVuXoBd.png',
+    alt: 'Blood Inventory Management',
+    caption: 'Blood Manage - Real-time inventory of blood products by type and group',
+  },
+]
+
+// Images for BloodCare Management System (hospital/blood center management)
 const bloodCareImages: ProjectImage[] = [
   {
     src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_1_2026-04-24_16-01-54-dTrKNRI7D5kwu4LVYulz4TXT0rX9fc.jpg',
@@ -90,7 +125,7 @@ const projects: Project[] = [
     badges: ['Patent', 'Certified Startup', 'Score 19.5/20'],
     filter: ['AI', 'Web'],
     score: '19.5 / 20',
-    images: bloodCareImages,
+    images: smartBloodSupplyImages,
   },
   {
     id: 2,
@@ -110,6 +145,7 @@ const projects: Project[] = [
     status: 'Production Ready',
     badges: ['Production Ready'],
     filter: ['Web'],
+    images: bloodCareImages,
   },
   {
     id: 3,
