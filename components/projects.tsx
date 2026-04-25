@@ -649,6 +649,16 @@ function ProjectCard({ project, idx }: { project: Project; idx: number }) {
           </span>
         ))}
       </div>
+
+      {/* Image Gallery for non-featured projects */}
+      {project.images && project.images.length > 0 && (
+        <div className="pt-2">
+          <p className="text-xs font-mono text-muted-foreground/60 uppercase tracking-widest mb-2">
+            Screenshots
+          </p>
+          <ImageGallery images={project.images} />
+        </div>
+      )}
     </motion.div>
   )
 }
