@@ -74,6 +74,36 @@ const bloodCareImages: ProjectImage[] = [
     alt: 'Dashboard View',
     caption: 'Main Dashboard - Patient overview, transfusion scheduling, and analytics',
   },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2_2026-04-24_16-01-54-nX46ldBGtsVWQi78T5P8NLqfvCybc6.jpg',
+    alt: 'Patient Records',
+    caption: 'Patient Records - Filtering by category, blood type tracking, and status',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_3_2026-04-24_16-01-54-gZbipgVGFHImhKsY1xPA8NBAn1lEQE.jpg',
+    alt: 'Patient Details',
+    caption: 'Patient Details - Medical information, contact details, donation history',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_4_2026-04-24_16-01-54-RUq1tb5rz5a7CGxrWKjmZKjR7lgatI.jpg',
+    alt: 'Edit Patient Form',
+    caption: 'Edit Patient - Comprehensive form for updating patient information',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_5_2026-04-24_16-01-54-CsOTZzFsbY1kxagcUZsEaFtC7SF9Ea.jpg',
+    alt: 'Today\'s Transfusions',
+    caption: 'Today\'s Schedule - Track and manage scheduled transfusions',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_6_2026-04-24_16-01-54-5P8GTMNuvjWYzV1nAIcnWYctnITH95.jpg',
+    alt: 'Tomorrow\'s Schedule',
+    caption: 'Tomorrow\'s Transfusions - Plan ahead with upcoming schedules',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_7_2026-04-24_16-01-54-lmQ7J1B4L8YPZ9rWyQxpUfUGRrRZT1.jpg',
+    alt: 'Schedule Transfusion Modal',
+    caption: 'Schedule Transfusion - Priority selection for urgent vs regular cases',
+  },
 ]
 
 // Images for FastPay (fintech QR-based mobile wallet)
@@ -450,11 +480,10 @@ function ImageGallery({ images }: { images: ProjectImage[] }) {
             <button
               key={idx}
               onClick={() => setCurrentIndex(idx)}
-              className={`relative flex-shrink-0 w-16 h-12 rounded-lg overflow-hidden border-2 transition-all ${
-                idx === currentIndex
+              className={`relative flex-shrink-0 w-16 h-12 rounded-lg overflow-hidden border-2 transition-all ${idx === currentIndex
                   ? 'border-primary ring-2 ring-primary/20'
                   : 'border-border/30 hover:border-border'
-              }`}
+                }`}
             >
               <Image
                 src={image.src}
@@ -537,11 +566,10 @@ function ImageGallery({ images }: { images: ProjectImage[] }) {
                   <button
                     key={idx}
                     onClick={() => setCurrentIndex(idx)}
-                    className={`relative flex-shrink-0 w-20 h-14 rounded-lg overflow-hidden border-2 transition-all ${
-                      idx === currentIndex
+                    className={`relative flex-shrink-0 w-20 h-14 rounded-lg overflow-hidden border-2 transition-all ${idx === currentIndex
                         ? 'border-primary ring-2 ring-primary/20'
                         : 'border-border/30 hover:border-border'
-                    }`}
+                      }`}
                   >
                     <Image
                       src={image.src}
@@ -812,11 +840,10 @@ export function Projects() {
             <button
               key={f}
               onClick={() => setActiveFilter(f)}
-              className={`px-4 py-2 text-sm font-medium rounded-xl border transition-all duration-200 ${
-                activeFilter === f
+              className={`px-4 py-2 text-sm font-medium rounded-xl border transition-all duration-200 ${activeFilter === f
                   ? 'bg-primary text-primary-foreground border-primary glow-primary'
                   : 'glass-soft border-border text-muted-foreground hover:text-foreground hover:border-primary/30'
-              }`}
+                }`}
             >
               {f}
             </button>
