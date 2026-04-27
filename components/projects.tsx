@@ -33,7 +33,160 @@ interface Project {
   images?: ProjectImage[]
 }
 
+// Images for Smart Blood Supply (blood logistics and ordering platform)
+const smartBloodSupplyImages: ProjectImage[] = [
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-25_15-27-46-D2pPSSZzIlGA79TGoCzVixOqKKsJ1T.jpg',
+    alt: 'Landing Page',
+    caption: 'Smart Blood Supply - Home page with login access',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-2kqGT7CroPFN7y2kwhr25IFoxVb0TR.png',
+    alt: 'Urgent Orders',
+    caption: 'Orders Dashboard - View and manage urgent blood product orders',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-NVYp1EkE8mnLWS8dEB8MOT40Riizgd.png',
+    alt: 'Waiting Orders',
+    caption: 'Waiting Orders - Track pending blood product requests by type',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-iby2lXZC62Kp3dgr2r429Lr84ulAlE.png',
+    alt: 'Accepted Orders',
+    caption: 'Accepted Orders - Monitor orders that have been approved',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-C8xYAoYqqBqTmhWkvVYLh8MSadeFI1.png',
+    alt: 'Order Overview with Map',
+    caption: 'Order Overview - Route optimization with patient details and delivery tracking',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-LoPSq5TOMZ4I3Nvv1FFkxnddVuXoBd.png',
+    alt: 'Blood Inventory Management',
+    caption: 'Blood Manage - Real-time inventory of blood products by type and group',
+  },
+]
+
+// Images for BloodCare Management System (hospital/blood center management)
 const bloodCareImages: ProjectImage[] = [
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_1_2026-04-24_16-01-54-dTrKNRI7D5kwu4LVYulz4TXT0rX9fc.jpg',
+    alt: 'Dashboard View',
+    caption: 'Main Dashboard - Patient overview, transfusion scheduling, and analytics',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2_2026-04-24_16-01-54-nX46ldBGtsVWQi78T5P8NLqfvCybc6.jpg',
+    alt: 'Patient Records',
+    caption: 'Patient Records - Filtering by category, blood type tracking, and status',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_3_2026-04-24_16-01-54-gZbipgVGFHImhKsY1xPA8NBAn1lEQE.jpg',
+    alt: 'Patient Details',
+    caption: 'Patient Details - Medical information, contact details, donation history',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_4_2026-04-24_16-01-54-RUq1tb5rz5a7CGxrWKjmZKjR7lgatI.jpg',
+    alt: 'Edit Patient Form',
+    caption: 'Edit Patient - Comprehensive form for updating patient information',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_5_2026-04-24_16-01-54-CsOTZzFsbY1kxagcUZsEaFtC7SF9Ea.jpg',
+    alt: 'Today\'s Transfusions',
+    caption: 'Today\'s Schedule - Track and manage scheduled transfusions',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_6_2026-04-24_16-01-54-5P8GTMNuvjWYzV1nAIcnWYctnITH95.jpg',
+    alt: 'Tomorrow\'s Schedule',
+    caption: 'Tomorrow\'s Transfusions - Plan ahead with upcoming schedules',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_7_2026-04-24_16-01-54-lmQ7J1B4L8YPZ9rWyQxpUfUGRrRZT1.jpg',
+    alt: 'Schedule Transfusion Modal',
+    caption: 'Schedule Transfusion - Priority selection for urgent vs regular cases',
+  },
+]
+
+// Images for FastPay (fintech QR-based mobile wallet)
+const fastPayImages: ProjectImage[] = [
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-57-JYKyZPTZR8QtHNHEyV9qHC5vRck9YU.jpg',
+    alt: 'Login Screen',
+    caption: 'Welcome Back - FastPay login with email and password authentication',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-59-MMBtSVda4SR72Uoxh5M9ZtWDm4R92p.jpg',
+    alt: 'Home Dashboard',
+    caption: 'Home Screen - Total balance, Send/Request/Insights actions, and recent activity',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-46-0QAx2Zl4LjHFX9A7lAvl3wghDpetIc.jpg',
+    alt: 'My Wallet',
+    caption: 'Wallet View - Balance display, deposit/withdraw/transfer/history actions',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-33-pDqSiC79484I86vvmfWGIwtRuwDzLE.jpg',
+    alt: 'Transfer Send Mode',
+    caption: 'Transfer Methods - Choose between nearby QR scan or remote wallet transfer',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-39-zZe5lg2FxZgEk1ntyDvly1NZ4PNeuV.jpg',
+    alt: 'QR Code Reception',
+    caption: 'Receive Transfer - Display QR code with amount and 15-minute validity',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-37-z2SkbM1IporoOWk51KkvpLgowOEt8m.jpg',
+    alt: 'Request Amount',
+    caption: 'Request Transfer - Specify amount or let sender choose with predefined options',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-12-r4N8Ci5LIWaKJex8dIrLVSxdbKnJEh.jpg',
+    alt: 'Activity History',
+    caption: 'Activity Feed - Filter transactions by All, Income, Expense, Transfer, or Bill',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-46-Rk1RJENTLwmWqxA8k0KYULqi9jKiyu.jpg',
+    alt: 'Cards Management',
+    caption: 'Cards Screen - Child accounts and family virtual cards with spending limits',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-38-4Kezxmk1s63Vcc9qyoR7nSQw5haJos.jpg',
+    alt: 'Create Child Account',
+    caption: 'Child Profile - Add child with relationship, email, password, and nickname',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-40-hh3Jbq2sd9VyOo24myTfAsKHazMP04.jpg',
+    alt: 'Create Virtual Card',
+    caption: 'New Card - Set monthly limit, expiration date, and instant activation',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-48-kJd3VRKkQTVBCkR0aLBgjY5jr1FM38.jpg',
+    alt: 'Child Dashboard',
+    caption: 'Child Account - Spending summary, virtual cards, and recent expenses by category',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-42-AGXXcsc9b6yWppWt93YBfEHINFXhE3.jpg',
+    alt: 'Virtual Card Details',
+    caption: 'Card View - Spending progress, remaining balance, and recent transactions',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-31-BdURthi7dHxezmR8pU00qv6Ww11Gcj.jpg',
+    alt: 'User Profile',
+    caption: 'Profile Settings - Security, linked accounts, preferences, and logout options',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-44-ePaI4yogiHFpk6HrEYmkJ73Ds6qK69.jpg',
+    alt: 'Deposit Modal',
+    caption: 'Deposit Transaction - Amount input with numeric keyboard interface',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-42-D4OCarVN370vPkzOOiOinSVmtvwJlz.jpg',
+    alt: 'Withdraw Modal',
+    caption: 'Withdrawal - Amount entry with numeric keypad and confirmation button',
+  },
+]
+
+// Placeholder for additional images
+const bloodCareImagesPlaceholder: ProjectImage[] = [
   {
     src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_1_2026-04-24_16-01-54-dTrKNRI7D5kwu4LVYulz4TXT0rX9fc.jpg',
     alt: 'Dashboard View',
@@ -90,7 +243,7 @@ const projects: Project[] = [
     badges: ['Patent', 'Certified Startup', 'Score 19.5/20'],
     filter: ['AI', 'Web'],
     score: '19.5 / 20',
-    images: bloodCareImages,
+    images: smartBloodSupplyImages,
   },
   {
     id: 2,
@@ -110,6 +263,7 @@ const projects: Project[] = [
     status: 'Production Ready',
     badges: ['Production Ready'],
     filter: ['Web'],
+    images: bloodCareImages,
   },
   {
     id: 3,
@@ -122,10 +276,13 @@ const projects: Project[] = [
       'QR code payments',
       'Digital wallet system',
       'Real-time transactions',
+      'Child account management',
+      'Virtual card controls with limits',
     ],
     impact: 'Graduation project targeting underbanked markets.',
     status: 'Ongoing',
     filter: ['Web'],
+    images: fastPayImages,
   },
   {
     id: 4,
@@ -204,6 +361,25 @@ const projects: Project[] = [
     ],
     impact: 'Improves development speed for embedded systems projects.',
     status: 'Production Ready',
+    filter: ['Embedded'],
+  },
+  {
+    id: 9,
+    title: 'BEMO Robot',
+    type: 'Robotics / Competition Project',
+    problem: 'Autonomous navigation and task execution in competitive robotics environments.',
+    solution: 'Built an intelligent robot with advanced sensor integration and autonomous control systems for national competition.',
+    tech: ['Raspberry Pi', 'ESP32', 'Python', 'ROS', 'C++'],
+    features: [
+      'Autonomous navigation and pathfinding',
+      'Real-time sensor fusion (camera, ultrasonic, IMU)',
+      'Intelligent task execution logic',
+      'Multi-agent coordination',
+      'Real-time performance optimization',
+    ],
+    impact: 'CSA Team achievement — National Robotics Competition winner. Demonstrates advanced robotics engineering, control systems design, and collaborative problem-solving under competition constraints.',
+    status: 'Production Ready',
+    badges: ['🏆 Award Winner', '1st Place National'],
     filter: ['Embedded'],
   },
 ]
@@ -304,11 +480,10 @@ function ImageGallery({ images }: { images: ProjectImage[] }) {
             <button
               key={idx}
               onClick={() => setCurrentIndex(idx)}
-              className={`relative flex-shrink-0 w-16 h-12 rounded-lg overflow-hidden border-2 transition-all ${
-                idx === currentIndex
+              className={`relative flex-shrink-0 w-16 h-12 rounded-lg overflow-hidden border-2 transition-all ${idx === currentIndex
                   ? 'border-primary ring-2 ring-primary/20'
                   : 'border-border/30 hover:border-border'
-              }`}
+                }`}
             >
               <Image
                 src={image.src}
@@ -391,11 +566,10 @@ function ImageGallery({ images }: { images: ProjectImage[] }) {
                   <button
                     key={idx}
                     onClick={() => setCurrentIndex(idx)}
-                    className={`relative flex-shrink-0 w-20 h-14 rounded-lg overflow-hidden border-2 transition-all ${
-                      idx === currentIndex
+                    className={`relative flex-shrink-0 w-20 h-14 rounded-lg overflow-hidden border-2 transition-all ${idx === currentIndex
                         ? 'border-primary ring-2 ring-primary/20'
                         : 'border-border/30 hover:border-border'
-                    }`}
+                      }`}
                   >
                     <Image
                       src={image.src}
@@ -613,6 +787,16 @@ function ProjectCard({ project, idx }: { project: Project; idx: number }) {
           </span>
         ))}
       </div>
+
+      {/* Image Gallery for non-featured projects */}
+      {project.images && project.images.length > 0 && (
+        <div className="pt-2">
+          <p className="text-xs font-mono text-muted-foreground/60 uppercase tracking-widest mb-2">
+            Screenshots
+          </p>
+          <ImageGallery images={project.images} />
+        </div>
+      )}
     </motion.div>
   )
 }
@@ -656,11 +840,10 @@ export function Projects() {
             <button
               key={f}
               onClick={() => setActiveFilter(f)}
-              className={`px-4 py-2 text-sm font-medium rounded-xl border transition-all duration-200 ${
-                activeFilter === f
+              className={`px-4 py-2 text-sm font-medium rounded-xl border transition-all duration-200 ${activeFilter === f
                   ? 'bg-primary text-primary-foreground border-primary glow-primary'
                   : 'glass-soft border-border text-muted-foreground hover:text-foreground hover:border-primary/30'
-              }`}
+                }`}
             >
               {f}
             </button>
