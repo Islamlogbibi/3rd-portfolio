@@ -74,6 +74,94 @@ const bloodCareImages: ProjectImage[] = [
     alt: 'Dashboard View',
     caption: 'Main Dashboard - Patient overview, transfusion scheduling, and analytics',
   },
+]
+
+// Images for FastPay (fintech QR-based mobile wallet)
+const fastPayImages: ProjectImage[] = [
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-57-JYKyZPTZR8QtHNHEyV9qHC5vRck9YU.jpg',
+    alt: 'Login Screen',
+    caption: 'Welcome Back - FastPay login with email and password authentication',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-59-MMBtSVda4SR72Uoxh5M9ZtWDm4R92p.jpg',
+    alt: 'Home Dashboard',
+    caption: 'Home Screen - Total balance, Send/Request/Insights actions, and recent activity',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-46-0QAx2Zl4LjHFX9A7lAvl3wghDpetIc.jpg',
+    alt: 'My Wallet',
+    caption: 'Wallet View - Balance display, deposit/withdraw/transfer/history actions',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-33-pDqSiC79484I86vvmfWGIwtRuwDzLE.jpg',
+    alt: 'Transfer Send Mode',
+    caption: 'Transfer Methods - Choose between nearby QR scan or remote wallet transfer',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-39-zZe5lg2FxZgEk1ntyDvly1NZ4PNeuV.jpg',
+    alt: 'QR Code Reception',
+    caption: 'Receive Transfer - Display QR code with amount and 15-minute validity',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-37-z2SkbM1IporoOWk51KkvpLgowOEt8m.jpg',
+    alt: 'Request Amount',
+    caption: 'Request Transfer - Specify amount or let sender choose with predefined options',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-12-r4N8Ci5LIWaKJex8dIrLVSxdbKnJEh.jpg',
+    alt: 'Activity History',
+    caption: 'Activity Feed - Filter transactions by All, Income, Expense, Transfer, or Bill',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-46-Rk1RJENTLwmWqxA8k0KYULqi9jKiyu.jpg',
+    alt: 'Cards Management',
+    caption: 'Cards Screen - Child accounts and family virtual cards with spending limits',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-38-4Kezxmk1s63Vcc9qyoR7nSQw5haJos.jpg',
+    alt: 'Create Child Account',
+    caption: 'Child Profile - Add child with relationship, email, password, and nickname',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-40-hh3Jbq2sd9VyOo24myTfAsKHazMP04.jpg',
+    alt: 'Create Virtual Card',
+    caption: 'New Card - Set monthly limit, expiration date, and instant activation',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-48-kJd3VRKkQTVBCkR0aLBgjY5jr1FM38.jpg',
+    alt: 'Child Dashboard',
+    caption: 'Child Account - Spending summary, virtual cards, and recent expenses by category',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-42-AGXXcsc9b6yWppWt93YBfEHINFXhE3.jpg',
+    alt: 'Virtual Card Details',
+    caption: 'Card View - Spending progress, remaining balance, and recent transactions',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-12-31-BdURthi7dHxezmR8pU00qv6Ww11Gcj.jpg',
+    alt: 'User Profile',
+    caption: 'Profile Settings - Security, linked accounts, preferences, and logout options',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-44-ePaI4yogiHFpk6HrEYmkJ73Ds6qK69.jpg',
+    alt: 'Deposit Modal',
+    caption: 'Deposit Transaction - Amount input with numeric keyboard interface',
+  },
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2026-04-27_15-13-42-D4OCarVN370vPkzOOiOinSVmtvwJlz.jpg',
+    alt: 'Withdraw Modal',
+    caption: 'Withdrawal - Amount entry with numeric keypad and confirmation button',
+  },
+]
+
+// Placeholder for additional images
+const bloodCareImagesPlaceholder: ProjectImage[] = [
+  {
+    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_1_2026-04-24_16-01-54-dTrKNRI7D5kwu4LVYulz4TXT0rX9fc.jpg',
+    alt: 'Dashboard View',
+    caption: 'Main Dashboard - Patient overview, transfusion scheduling, and analytics',
+  },
   {
     src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2_2026-04-24_16-01-54-nX46ldBGtsVWQi78T5P8NLqfvCybc6.jpg',
     alt: 'Patient Records',
@@ -158,10 +246,13 @@ const projects: Project[] = [
       'QR code payments',
       'Digital wallet system',
       'Real-time transactions',
+      'Child account management',
+      'Virtual card controls with limits',
     ],
     impact: 'Graduation project targeting underbanked markets.',
     status: 'Ongoing',
     filter: ['Web'],
+    images: fastPayImages,
   },
   {
     id: 4,
