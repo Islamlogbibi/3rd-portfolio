@@ -333,6 +333,25 @@ const projects: Project[] = [
     status: 'Production Ready',
     filter: ['Embedded'],
   },
+  {
+    id: 9,
+    title: 'BEMO Robot',
+    type: 'Robotics / Competition Project',
+    problem: 'Autonomous navigation and task execution in competitive robotics environments.',
+    solution: 'Built an intelligent robot with advanced sensor integration and autonomous control systems for national competition.',
+    tech: ['Raspberry Pi', 'ESP32', 'Python', 'ROS', 'C++'],
+    features: [
+      'Autonomous navigation and pathfinding',
+      'Real-time sensor fusion (camera, ultrasonic, IMU)',
+      'Intelligent task execution logic',
+      'Multi-agent coordination',
+      'Real-time performance optimization',
+    ],
+    impact: 'CSA Team achievement — National Robotics Competition winner. Demonstrates advanced robotics engineering, control systems design, and collaborative problem-solving under competition constraints.',
+    status: 'Production Ready',
+    badges: ['🏆 Award Winner', '1st Place National'],
+    filter: ['Embedded'],
+  },
 ]
 
 const statusConfig: Record<Project['status'], { color: string; bg: string }> = {
