@@ -5,7 +5,7 @@ import { Skills } from '@/components/skills'
 import { Projects } from '@/components/projects'
 import { Achievements } from '@/components/achievements'
 import { Contact } from '@/components/contact'
-
+import { Analytics } from "@vercel/analytics/next"
 export default function Home() {
   return (
     <main className="relative min-h-screen">
@@ -16,6 +16,7 @@ export default function Home() {
       <Projects />
       <Achievements />
       <Contact />
+      <Analytics />
     </main>
   )
 }
