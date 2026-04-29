@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
+import { Analytics } from "@vercel/analytics/next"
 import './globals.css'
 
 const inter = Inter({
@@ -33,6 +34,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  <Analytics />
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased bg-background`}>
@@ -46,5 +48,6 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
+    
   )
 }
