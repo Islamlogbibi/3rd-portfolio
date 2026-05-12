@@ -53,8 +53,8 @@ const certificates = [
   },
   {
     title: '2nd Place — BitHack Hackathon',
-    org: 'BitHack',
-    date: 'May 2026',
+    org: 'BitHack, Annaba',
+    date: 'May 2 2026',
     icon: Trophy,
     color: 'oklch(0.60 0.18 40)',
     badge: '2nd Place',
